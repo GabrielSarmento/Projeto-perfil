@@ -1,0 +1,94 @@
+@import url(https://fonts.google.com/specimen/Inter);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:rgb(110, 110, 110);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: specimen, sans-serif;
+}
+
+:root {
+    --cor-destaque:#c5f82a
+
+
+}
+
+main {
+    width: 315px;
+    height:490px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px ;
+}
+main img {
+    width: 30%;
+    height: 20%;
+    border-radius: 50px;
+    padding: 1em;
+    gap: 9em;
+}
+
+.container-texto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding:.5em;
+    gap:.2em;
+}
+.container-texto h2{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.container-texto p {
+    color: #c5f82a;
+    font-size: .8em;
+    font-weight: 100;
+    padding: .9em;
+}
+
+.container-links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: .1em;
+    gap: .9em;
+
+}
+
+
+.container-links h5 {
+    font-size: .7em;
+    font-weight: 100;
+    color: white;
+    gap: 10em;
+
+}
+
+.container-links a {
+    text-decoration: none;
+    background-color: rgb(82, 82, 82);
+    color: white;
+    width: 215px;
+    border-radius: 4px;
+    height: 35px;
+    text-align: center;
+    padding: .7em;
+    font-size: .8em;
+}
+
+.container-links a:hover{
+    background-color: #c5f82a;
+    transform: scale(.95);
+    color: black;
+}
